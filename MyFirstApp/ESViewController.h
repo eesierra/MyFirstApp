@@ -10,4 +10,10 @@
 
 @interface ESViewController : UIViewController
 
+
+@property (nonatomic, weak) IBOutlet UIButton *tapButton;
+
+- (IBAction)tapButton:(id)sender;
+
+
 @end

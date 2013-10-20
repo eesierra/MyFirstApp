@@ -20,6 +20,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)tapButton:(id)sender;
+{
+    NSLog(@"Hello! How are you today?");
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
