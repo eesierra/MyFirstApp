@@ -13,7 +13,14 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *tapButton;
 
+@property (nonatomic, weak) IBOutlet UISwitch *mainSwitch;
+
+@property (nonatomic, weak) IBOutlet UISlider *mainSlider;
+
 - (IBAction)tapButton:(id)sender;
 
+- (IBAction)switchButton:(id)sender;
+
+- (IBAction)slider:(id)sender;
 
 @end
